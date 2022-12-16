@@ -1,0 +1,67 @@
+.press {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(247, 245, 242);
+    min-height: 20rem;
+   }
+  .press h3 {
+    letter-spacing: 2px;
+    font-size: 2rem;
+  }
+  
+  .press i {
+    font-size: 3rem;
+    color: rgb(247, 163, 112);
+  }
+ .Information img{
+  width: 200px;
+  height:50px;
+ }
+  
+    /*social links and address*/
+  
+    .liked__blog {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 25% 75%;
+      grid-template-areas: "row1 row1"
+                           "row2 row2";
+      width: 100%; 
+      min-height: 15rem; 
+      background-color:rgb(231, 169, 69);   
+                   
+    }
+    .row1{
+      grid-area: row1;
+      width: 80%;
+      place-self: center;
+      text-align: center;
+      border-bottom:1px solid rgb(62, 55, 38);
+     letter-spacing: 1px;
+    }
+  
+    .row2{
+      grid-area: row2;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+     
+    }
+    .liked{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid rgb(62, 55, 38);
+      align-self: center;
+      padding-left: 20px;
+      margin-bottom: 5rem;
+    }
+    .liked img{
+        width:100px;
+        height: 100px;
+    }
+   
+  

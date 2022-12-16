@@ -1,0 +1,14 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    height: 400px ;
+}
+
+h1{
+    color: red;
+}
