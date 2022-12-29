@@ -3,7 +3,7 @@ import { DATAS } from "../data";
 
 //Context api Set Up from react//
 export const ShopContext = createContext(null);
-
+//push data to array basket
 const basket=[]
 
 //function to set initial state//

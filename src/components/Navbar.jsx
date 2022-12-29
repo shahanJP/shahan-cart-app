@@ -9,6 +9,7 @@ const Navbar = () => {
 
     return (
         <div className="navbar">
+        <img src="" alt=""/>
       <div className="links">
         <Link to="/"> Shop </Link>
         <Link to="/cart">

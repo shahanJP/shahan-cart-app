@@ -1,9 +1,21 @@
+
+
 .press {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(247, 245, 242);
     min-height: 20rem;
+    background-image:url('https://media.tenor.com/images/ee24fb1d705fe667c3983d6796d6025c/tenor.gif');
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+  }
+   .parra{
+    text-align: center;
    }
   .press h3 {
     letter-spacing: 2px;
