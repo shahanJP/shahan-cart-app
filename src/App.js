@@ -16,8 +16,8 @@ function App() {
       <Navbar/>
       <Banner/>
         <Routes>
-          <Route path="/" element={<Shop />} />
-          <Route path="/cart" element = {<Cart/>} />
+          <Route exact path="/{my-cart}" component={<Shop />} />
+          <Route path="/cart" component = {<Cart/>} />
         </Routes>
         <Footer/>
       </Router>
