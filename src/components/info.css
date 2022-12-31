@@ -2,32 +2,39 @@
 
 .press {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgb(247, 245, 242);
     min-height: 20rem;
-    background-image:url('https://media.tenor.com/images/ee24fb1d705fe667c3983d6796d6025c/tenor.gif');
+    background-image:url(../assets/headphone.gif);
     background-position: center;
     background-size: cover;
     backdrop-filter: no-repeat;
     background-attachment: fixed;
     color: white;
     opacity: 0.8;
+  
+  }
+  .prayer, .timing{
+    padding-left: 2rem;
   }
    .parra{
     text-align: center;
+    
    }
   .press h3 {
     letter-spacing: 2px;
     font-size: 2rem;
+   
   }
-  
+ 
   .press i {
-    font-size: 3rem;
+    font-size: clamp(2rem, 1rem ,0.7rem);
     color: rgb(247, 163, 112);
+    
   }
  .Information img{
-  width: 200px;
+  width: 100px;
   height:50px;
  }
   
@@ -76,4 +83,13 @@
         height: 100px;
     }
    
-  
+    @media screen and (max-width: 680px) {
+      .press {
+        flex-direction: column;
+        padding-top:2rem ;
+        padding-bottom: 2rem;
+      }
+      .prayer, .timing{
+        border-bottom: 2px solid black;
+      }
+    }
