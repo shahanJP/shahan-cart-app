@@ -19,7 +19,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://shahanjp.github.io/shopping-cart/",
+  "homepage": "https://github.com/shahanJP/Cart-project-GA",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
