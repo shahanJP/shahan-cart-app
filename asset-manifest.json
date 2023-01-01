@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ffd13a29.css",
+    "main.js": "/static/js/main.67f6dae1.js",
+    "static/media/headphone.gif": "/static/media/headphone.544cf8a4129f19397fde.gif",
+    "static/media/product7.jpg": "/static/media/product7.ef3b64f2c604af998a92.jpg",
+    "static/media/product9.jpg": "/static/media/product9.84ca7f7372be9be483b0.jpg",
+    "static/media/product3.jpg": "/static/media/product3.bae5fa43501b537e6368.jpg",
+    "static/media/product6.jpg": "/static/media/product6.6c3387f2f37b4044e69e.jpg",
+    "static/media/product4.jpg": "/static/media/product4.dce2b76e635bd76763b0.jpg",
+    "static/media/product5.jpg": "/static/media/product5.3f636f77138e7caafe15.jpg",
+    "static/media/product1.jpg": "/static/media/product1.050387dbe56b8e59a3fb.jpg",
+    "index.html": "/index.html",
+    "main.ffd13a29.css.map": "/static/css/main.ffd13a29.css.map",
+    "main.67f6dae1.js.map": "/static/js/main.67f6dae1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffd13a29.css",
+    "static/js/main.67f6dae1.js"
+  ]
+}
