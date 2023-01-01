@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { ShopContext } from '../../context/ShopContextProvider';
 import { DATAS } from '../../data';
 import CartItem from './CartItem';
-import { HashLink } from 'react-router-hash-link';
+import { Link } from "react-router-dom"
 import './cart.css'
 
 const Cart = () => {
@@ -17,11 +17,12 @@ const Cart = () => {
           if(cartItems[data.id] > 0){
             return <CartItem product={data}/>
           }
+          
         })}
         </div>
         <div className="checkout">
         <p>Total: $ {totalAmount}</p>
-        <button className='ctBtn' ><HashLink smooth to="#shop" className='link'>Continue Shopping</HashLink></button>
+        <button className='ctBtn' ><Link to="/" className='link'>Continue Shopping</Link></button>
         
        
         </div>

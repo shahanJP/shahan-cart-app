@@ -3,7 +3,7 @@ import { DATAS } from '../../data'
 import Product from './Product'
 import './shop.css'
 import { Fade } from "react-awesome-reveal";
-import Info from '../../components/Info';
+import Info from '../../routes/Info';
 const Shop = () => {
     return (
         <div className="shop-container" id="shop">
