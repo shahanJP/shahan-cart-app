@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shahan-cart-app/static/css/main.155341cf.css",
+    "main.css": "/shahan-cart-app/static/css/main.927dd071.css",
     "main.js": "/shahan-cart-app/static/js/main.4282bdc3.js",
     "static/media/headphone.gif": "/shahan-cart-app/static/media/headphone.544cf8a4129f19397fde.gif",
     "static/media/product7.jpg": "/shahan-cart-app/static/media/product7.ef3b64f2c604af998a92.jpg",
@@ -11,11 +11,11 @@
     "static/media/product5.jpg": "/shahan-cart-app/static/media/product5.3f636f77138e7caafe15.jpg",
     "static/media/product1.jpg": "/shahan-cart-app/static/media/product1.050387dbe56b8e59a3fb.jpg",
     "index.html": "/shahan-cart-app/index.html",
-    "main.155341cf.css.map": "/shahan-cart-app/static/css/main.155341cf.css.map",
+    "main.927dd071.css.map": "/shahan-cart-app/static/css/main.927dd071.css.map",
     "main.4282bdc3.js.map": "/shahan-cart-app/static/js/main.4282bdc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.155341cf.css",
+    "static/css/main.927dd071.css",
     "static/js/main.4282bdc3.js"
   ]
 }
